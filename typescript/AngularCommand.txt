@@ -1,0 +1,111 @@
+ download  node js 
+
+https://nodejs.org/en/download/
+
+
+download visual studio code
+
+https://code.visualstudio.com/
+
+for TypeScript 
+
+
+
+npm config set proxy http://proxyname.com:8080 
+npm config set https-proxy http://proxyname.com.com:8080
+
+
+
+
+npm install -g typescript
+
+npm install -g @angular/cli
+
+
+
+Path
+C:\Users\Satmahaj\AppData\Roaming\npm\node_modules\typescript\bin
+
+
+
+ng new APMSample
+
+
+for Angular
+
+https://github.com/angular/quickstart/
+
+For Angular CLI
+
+https://github.com/angular/angular-cli
+
+starter files
+
+https://github.com/DeborahK/Angular-GettingStarted 
+
+
+for Node version
+
+node -version
+
+for angular 
+ng -v
+----------------------------------------------------------------------------------------------
+
+command to install CLI (Angular )
+
+npm install -g @angular/cli
+
+commamd to create Component
+
+ng g c products/product-detail.component
+
+	app
+		product
+			product
+				product-details.component.ts
+				product-details.component.html
+				product-details.component.css
+				
+
+ng g c products/product-detail.component --flat
+
+	app
+		product
+			
+				product-details.component.ts
+				product-details.component.html
+				product-details.component.css
+
+------------------------------------------------------------------------------
+
+commamd to create services and register to module
+
+ng g s products/product-guard.service -m app.module 
+
+----------------------------------------------------------------------------------
+
+
+command to create module and register to globle module
+
+
+ng g m products/product --flat
+
+-------------------------------------------------------------------------------------------------------------------------------------
+
+Component ng g component my-new-component
+Directive	ng g directive my-new-directive
+Pipe			ng g pipe my-new-pipe  (ng g pipe ConvertToSpaces)
+Service	ng g service my-new-service
+Class	ng g class my-new-class
+Guard	ng g guard my-new-guard
+Interface	ng g interface my-new-interface
+Enum	ng g enum my-new-enum
+Module	ng g module my-module
+
+
+----------------------------------------------------------------------------------------
+
+
+
+
